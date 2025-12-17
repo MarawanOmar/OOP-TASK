@@ -14,8 +14,7 @@ public:
     double deposit(double amount);
     virtual void displayInfo();
     static int getTotalAccounts();
-    Account operator+(const Account &other);
-    ~Account();
+    Account operator+(const Account& result);
 };
 
 #endif
